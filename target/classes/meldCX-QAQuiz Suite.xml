@@ -1,0 +1,10 @@
+<suite name="meldCX-QACODE-QUIZ">
+
+	<test name="LoginTest">
+		<classes>
+			<class name="com.test.meldCXQAQuiz.Test.LoginTest" />
+		</classes>
+	</test>
+
+</suite>  
+

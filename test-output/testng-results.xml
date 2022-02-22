@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="meldCX-QACODE-QUIZ" duration-ms="6700" started-at="2022-02-22T19:07:06 BDT" finished-at="2022-02-22T19:07:12 BDT">
+    <groups>
+    </groups>
+    <test name="LoginTest" duration-ms="6700" started-at="2022-02-22T19:07:06 BDT" finished-at="2022-02-22T19:07:12 BDT">
+      <class name="com.test.meldCXQAQuiz.Test.LoginTest">
+        <test-method status="PASS" signature="checkloginpagetitle()[pri:0, instance:com.test.meldCXQAQuiz.Test.LoginTest@1a1d6a08]" name="checkloginpagetitle" duration-ms="5462" started-at="2022-02-22T19:07:06 BDT" finished-at="2022-02-22T19:07:11 BDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkloginpagetitle -->
+        <test-method status="PASS" signature="logintest(java.util.List)[pri:0, instance:com.test.meldCXQAQuiz.Test.LoginTest@1a1d6a08]" name="logintest" duration-ms="384" started-at="2022-02-22T19:07:12 BDT" data-provider="loginData" depends-on-methods="com.test.meldCXQAQuiz.Test.LoginTest.checkloginpagetitle" finished-at="2022-02-22T19:07:12 BDT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[LoginDTO [username=SomeName, password=TopSecret1234!]]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logintest -->
+      </class> <!-- com.test.meldCXQAQuiz.Test.LoginTest -->
+    </test> <!-- LoginTest -->
+  </suite> <!-- meldCX-QACODE-QUIZ -->
+</testng-results>
